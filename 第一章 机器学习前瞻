@@ -1,0 +1,16 @@
+机器学习分类
+ 监督/非监督学习
+    四种模式：监督学习(分类， 回归) 属性是一个数据类型（例如，‘Mileage’），然而特征feature根据上下文有几种含义。但通常的操作是属性加上它的值('Mileage = 15, 000')。
+                                  尽管大众交替的使用属性和特征。
+                                  注意，有些回归算法也能被用于分类，反之亦然。例如，逻辑回归通常被用于分类问题，因为他能输出一个属于给定分类的可能性相符合的数值（例如，是垃圾邮件的几率是20%）
+                                  这里列出了一些重要的监督学习算法：
+                                      k-Nearest Neighbors
+•                                     Linear Regression
+•                                     Logistic Regression
+•                                     Support Vector Machines (SVMs)
+•                                     Decision Trees and Random Forests
+•                                     Neural networks（部分可以是非监督，半监督） 
+             非监督学习
+             半监督学习
+             强化学习
+             
