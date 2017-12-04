@@ -1,8 +1,9 @@
 机器学习分类
  监督/非监督学习
-    四种模式：监督学习(分类， 回归) 属性是一个数据类型（例如，‘Mileage’），然而特征feature根据上下文有几种含义。但通常的操作是属性加上它的值('Mileage = 15, 000')。
-                                  尽管大众交替的使用属性和特征。
-                                  注意，有些回归算法也能被用于分类，反之亦然。例如，逻辑回归通常被用于分类问题，因为他能输出一个属于给定分类的可能性相符合的数值（例如，是垃圾邮件的几率是20%）
+    四种模式：监督学习(分类， 回归) 
+                       属性是一个数据类型（例如，‘Mileage’），然而特征feature根据上下文有几种含义。但通常的操作
+                   是属性加上它的值('Mileage = 15, 000')。尽管大众交替的使用属性和特征。
+                        注意，有些回归算法也能被用于分类，反之亦然。例如，逻辑回归通常被用于分类问题，因为他能输出一个属于给定分类的可能性相符合的数值（例如，是垃圾邮件的几率是20%）
                                   这里列出了一些重要的监督学习算法：
                                       k-Nearest Neighbors
 •                                     Linear Regression
@@ -11,6 +12,21 @@
 •                                     Decision Trees and Random Forests
 •                                     Neural networks（部分可以是非监督，半监督） 
              非监督学习
+                正如你猜测的那样，非监督学习中，训练数据是没有标签的。系统实在没有教师的情况下学习。
+                下面列出了一些非监督学习算法
+                     Clustering聚类
+                     — k-Means
+                     — Hierarchical Cluster Analysis (HCA)
+                     — Expectation Maximization
+                     • Visualization and dimensionality reduction形象化和降维
+                     — Principal Component Analysis (PCA)
+                     — Kernel PCA
+                     — Locally-Linear Embedding (LLE)
+                     — t-distributed Stochastic Neighbor Embedding (t-SNE)
+                     • Association rule learning协同规则
+                     — Apriori
+                     — Eclat
+                  假如，从你的blog的访客中，你有大量的数据。你或许希望使用聚类算法来检测到类似访客的群组。
              半监督学习
              强化学习
              
