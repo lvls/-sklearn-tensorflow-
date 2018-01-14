@@ -37,3 +37,4 @@
    基于实例和基于模型的学习
        基于实例的学习  寻找两者相似性的衡量
        基于模型的学习  使用模型进行预测
+y(s,a) = \text{r} + \gamma . \underset{a'}{\max} \, Q_\text{target}(s', a')
